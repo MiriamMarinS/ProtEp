@@ -2,7 +2,7 @@
 """
 Created on Tue Jun  1 09:16:45 2021
 
-@author: milil
+@author: Miriam Marin Sanz
 """
 
 # For analysis of proteomic data of wheat samples, find canonical epitopes and monoclonal antibody recognition sites.
