@@ -1,6 +1,14 @@
 # ProtEp
 Processing of proteomic files for prolamin peptides analysis and celiac disease (CD) epitopes search for each protein fraction.
 
+*Requisites:*
+* python version 3.6 or higher
+  * Library: biopython
+    ```
+    pip install biopython
+    ```
+
+
 # **Inputs:**
 * Proteomic files with information of protein identification and characterization by qTOF mass spectrometry in xlsx format.
 * Database with peptide sequence of: CD epitopes, innate immune response related p31-41 peptide, monoclonal antibody (moAb) recognition sites and immunoglobulin E (IgE) recognition sites. The sequence of deaminated CD epitopes can be included. The database must be in fasta format. An example is in epitopes_example.fasta. In addition, in the epitope name has to be included the category of the epitope separated by ";": e.g. g12_1;moAb. Categories: original (adative and innate immuno response in CD), moAb, IgE, deaminated1, deaminated2 (second deaminated variant of the original epitope sequence).
