@@ -2,7 +2,7 @@
 """
 Created on Mon May 31 12:50:32 2021
 
-@author: milil
+@author: Miriam Marin Sanz
 """
 
 #Proteomic data.
