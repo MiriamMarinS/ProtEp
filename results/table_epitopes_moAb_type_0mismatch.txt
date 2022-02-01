@@ -1,0 +1,19 @@
+protein	epitope	HT Quimotripsina White flour	Wheat Quimotripsina White flour	HT Quimotripsina MM	Wheat Quimotripsina MM	HT Tripsina White flour	Wheat Tripsina White flour	HT Tripsina MM	Wheat Tripsina MM
+alpha	r5	8	24	21	29	0	0	0	0
+alpha	a1	14	72	51	81	1	0	0	0
+alpha	g12	7	42	31	49	0	0	0	0
+gamma	r5	0	0	0	0	2	2	0	2
+gamma	a1	0	0	0	0	0	0	0	0
+gamma	g12	0	0	0	1	3	4	0	3
+omega	r5	0	3	3	11	0	0	0	0
+omega	a1	0	3	3	4	0	0	0	0
+omega	g12	2	3	5	8	0	0	0	0
+HMW	r5	0	0	0	0	0	0	0	0
+HMW	a1	0	0	0	0	0	0	0	0
+HMW	g12	0	0	0	0	0	0	0	0
+LMW	r5	0	0	0	2	0	1	0	1
+LMW	a1	0	0	0	1	0	1	0	1
+LMW	g12	0	1	1	1	0	0	0	0
+NGP	r5	0	0	0	2	0	5	2	0
+NGP	a1	0	0	0	2	0	1	0	0
+NGP	g12	0	1	0	2	0	7	3	0

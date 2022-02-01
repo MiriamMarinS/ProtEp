@@ -1,0 +1,15 @@
+	Resultados_FBarro_Quimotripsina_Harina_HT	Resultados_FBarro_Quimotripsina_Harina_Trigo	Resultados_FBarro_Quimotripsina_MM_HT	Resultados_FBarro_Quimotripsina_MM_Trigo	Resultados_FBarro_Tripsina_Harina_HT	Resultados_FBarro_Tripsina_Harina_Trigo	Resultados_FBarro_Tripsina_MM_HT	Resultados_FBarro_Tripsina_MM_Trigo
+omega-gliadin	2	10	8	17	0	0	0	0
+alpha-gliadin	54	107	89	107	20	53	35	41
+gamma-gliadin	20	31	35	47	24	41	22	39
+HMW	22	47	49	62	80	108	96	142
+LMW	49	75	69	81	56	81	55	63
+ATIs	0	10	4	9	17	29	24	26
+LTP	0	0	0	0	6	5	5	6
+Globulin	0	2	0	0	11	10	22	17
+Triticin	0	0	4	4	0	0	8	13
+Serpin	5	6	16	6	15	10	33	23
+Avenin	8	10	12	14	18	34	23	34
+Hordein	0	0	0	0	0	0	0	0
+Secalin	0	1	0	2	0	0	0	1
+Others	40	24	22	23	188	176	176	164
