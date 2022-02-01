@@ -30,7 +30,7 @@ python unique_peptides.py -p </path/to/ proteomic files directory> -o </path/to/
 # **Option 2:**
 Count the number of epitopes, moAb recognition sites, ..., in unique peptides for each protein fraction in each sample. The output can be by epitope/moAb name or by epitope/moAb type: e.g. g12_1 moAb has g12_1 as name and g12 as type.
 ```
-python proteomicEpitopeFinder.py -p </path/to/ proteomic files directory> -o </path/to/ output directory> -e </path/to/epitope fasta file> -m <method: original | moAb | ...> -d <remove epitope duplications: yes | no> -mm <number of allowed mismatches to find epitopes: 0 | 1 | ...> -t <type of table with counts: name | type>
+python epitopeFinder.py -p </path/to/ proteomic files directory> -o </path/to/ output directory> -e </path/to/epitope fasta file> -m <method: original | moAb | ...> -d <remove epitope duplications: yes | no> -mm <number of allowed mismatches to find epitopes: 0 | 1 | ...> -t <type of table with counts: name | type>
 ```
 *Output:*
 * Table in tsv format.
