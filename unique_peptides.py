@@ -6,7 +6,6 @@ Created on Mon May 31 12:50:32 2021
 """
 
 #Proteomic data.
-
 from os import listdir
 from os.path import isfile, join
 import pandas as pd
@@ -45,7 +44,6 @@ def main():
                     "Hordein": ("hordein"),
                     "Secalin": ("secalin"),
                     "Others": ()}
-
 
     # Search in Triticum aestivum, Triticum durum and Hordeum vulgare.
     # In this study, only proteins from these species are of interest.

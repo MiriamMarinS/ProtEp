@@ -64,7 +64,6 @@ def main():
         if (proteomic.genotype, proteomic.enzyme, proteomic.type) not in list_of_samples:
             list_of_samples.append((proteomic.genotype, proteomic.enzyme, proteomic.type))
 
-    # Table of epitopes.
     writeTable(new_dict_annotation_name_epitope_table, type_table, list_of_samples, mismatch, proteomic_files_path_results, epitope_sequences, method)
 
 if __name__ == "__main__":

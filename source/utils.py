@@ -9,7 +9,6 @@ def occurrences(string, sub):
 
 
 def occurrences_mismatch(string, sub, mismatch_allowed, epitope_sequences):
-
     epitopes = []
     for k, v in epitope_sequences.items():
         if v[0] not in epitopes:

@@ -29,7 +29,8 @@ class Epitope():
         return(self.epitope_sequences)
 
     def epitope_library_remove_duplication(self):
-        #In the case of original, deaminated1, deaminated2 and moAb epitopes methods, the epitopes are grouped in classes. If epitopes in the same class have the same sequences, they will be considered as one epitope. In other methods, the duplication will be removed in the group of all epitopes, because they are not grouped in classes.
+        # In the case of original, deaminated1, deaminated2 and moAb epitopes methods, the epitopes are grouped in classes.
+        # If epitopes in the same class have the same sequences, they will be considered as one epitope. In other methods, the duplication will be removed in the group of all epitopes, because they are not grouped in classes.
 
         #Find duplicated sequences in epitope library.
         duplicated_sequences = {}

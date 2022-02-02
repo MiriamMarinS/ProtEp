@@ -3,6 +3,8 @@ import numpy as np
 import collections
 from source.utils import occurrences, occurrences_mismatch
 
+# For analyse peptides from proteomic files.
+
 class Proteomic():
     def __init__(self, proteomic_file_name, proteomic_files_path, epitope_library, mismatch):
         self.proteomic_file_name = proteomic_file_name

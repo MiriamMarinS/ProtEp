@@ -5,7 +5,7 @@ from itertools import product
 def writeTable(dict_table, type_table, list_of_samples, mismatch, proteomic_files_path_results, epitope_sequences, method):
     proteins = {'alpha': 3, 'gamma': 4, 'omega': 5, 'HMW': 6, 'LMW': 7, 'NGP': 8}
 
-    #Table to export.
+    # Table to export.
     dict_to_table = {}
     for protein, value in proteins.items():
         for epitope, samples_types in dict_table.items():

@@ -1,5 +1,5 @@
-
 # To assign peptides to each protein fraction.
+
 def peptides(pept, type_protein, values, door, proteinsResult, protein):
     if type_protein in ["omega-gliadin", "gamma-gliadin", "ATIs", "LTP"]:
        if all(value in protein["Description"].lower() for value in values):
