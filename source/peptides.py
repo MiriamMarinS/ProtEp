@@ -6,7 +6,7 @@ def peptides(pept, type_protein, values, door, proteinsResult, protein):
            proteinsResult[type_protein] = proteinsResult.get(type_protein, 0) + 1
            door = "close"
     if type_protein == "alpha-gliadin":
-        if all(value in protein["Description"].lower() for value in values[0]) or all(value in protein["Description"] for value in values[1]):
+        if all(value in protein["Description"].lower() for value in values[0]) or all(value in protein["Description"].lower() for value in values[1]):
             proteinsResult[type_protein] = proteinsResult.get(type_protein, 0) + 1
             door = "close"
     if type_protein in ["HMW", "LMW"]:
