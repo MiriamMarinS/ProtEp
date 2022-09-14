@@ -21,7 +21,7 @@ The protein fractions considered in the analysis are: alpha, omega and gamma-gli
 Count the number of unique peptides annotated in each protein fraction per sample.
 
 ```
-python unique_peptides.py -p </path/to/ proteomic files directory> -o </path/to/ output directory>
+python unique_peptides_v2.py -p </path/to/ proteomic files directory> -o </path/to/ output directory>
 ```
 
 *Output:*
